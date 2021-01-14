@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!--enlazar con el css y img-->
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <title>Contactos</title>
+</head>
+<body>
+    <div>
+    <!--Navbar-->
+    <div>
+        <nav class="navbar navbar-light bg-primary navbar-toggleable-sm">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><!--el icono nos permite enlazar a la pagina de inicio con esta etiqueta-->
+                <img src="./img/papel-picado.svg" alt="Logo de la empresa" width="90" height="40" class="d-inline-block align-top">
+                YouParties
+              </a>
+
+              <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ocultarBotones" aria-controls="ocultarBotones" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="ocultarBotones">
+                  <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                  </div>
+                </div>
+              </div>
+        </nav>
+    </div>
+
+    <center><div class="margenFormulario">
+    <form class="container">
+
+        <div class="form-group"><br>
+          <label for="exampleFormControlInput1">Nombre del propietario:</label>
+          <input type="#" class="form-control" id="exampleFormControlInput1" placeholder="Salvador"required> <!--los requiere si fue se un formulario con funciones nos sirve esta etiqueta, pero por el momento solo estoy explorando lo aprendido-->
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Apellidos:</label>
+          <input type="#" class="form-control" id="exampleFormControlInput1" placeholder="Bravo Arriaga"required>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Dirección:</label>
+          <input type="#" class="form-control" id="exampleFormControlInput1" placeholder="666 evil. S/N."required>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlInput1">E-mail:</label>
+          <input type="#" class="form-control" id="exampleFormControlInput1" placeholder="fiesta.reservados666@gmail.com"required>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Teléfono:</label>
+          <input type="#" class="form-control" id="exampleFormControlInput1" placeholder="567123489"required>
+        </div>
+
+        <!--Aqui podría ir el mapa-->
+
+       </form>
+   </div></center>
+
+</div>
+
+        <!--estos link nos sirve para las funciones del botón del navbar (efectos de despliegue), se extrajo de Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>
